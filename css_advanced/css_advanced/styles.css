@@ -362,3 +362,82 @@
   top: 0%;
   overflow: visible;
 }
+.part-1-testimonials,
+.part-1-testimonials * {
+  box-sizing: border-box;
+}
+.part-1-testimonials {
+  position: relative;
+}
+.background {
+  width: 1440px;
+  height: 392px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.testimonial {
+  width: 943px;
+  height: 160px;
+  position: static;
+}
+.avatar {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 260px;
+  top: 108px;
+  overflow: visible;
+}
+.text {
+  width: 730px;
+  height: 158px;
+  position: absolute;
+  left: 473px;
+  top: 110px;
+  overflow: hidden;
+}
+.weather-presenter {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SourceSansPro-Italic", sans-serif;
+  font-size: 22px;
+  line-height: 33.6px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  right: 77.4%;
+  left: 0%;
+  width: 22.6%;
+  top: calc(50% - -45px);
+}
+.person-name {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  right: 82.33%;
+  left: 0%;
+  width: 17.67%;
+  top: calc(50% - -11px);
+}
+.those-tutorials-ar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 22px;
+  line-height: 33.6px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 56.96%;
+  top: 0%;
+  height: 43.04%;
+}
+
