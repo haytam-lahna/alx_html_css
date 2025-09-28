@@ -1,17 +1,203 @@
-.main-part,
-.main-part * {
+.school-page,
+.school-page * {
   box-sizing: border-box;
 }
-.main-part {
-  height: 1093px;
+.school-page {
+  background: #ffffff;
+  height: 3718px;
   position: relative;
   overflow: hidden;
 }
-.background {
+.part-5-footer {
+  width: 1440px;
+  height: 249px;
   position: absolute;
-  inset: 0;
+  left: 0px;
+  top: 3469px;
+  overflow: hidden;
 }
-.mask {
+.background {
+  background: #071629;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.logo {
+  width: 11.74%;
+  height: 12.05%;
+  position: absolute;
+  right: 76.81%;
+  left: 11.46%;
+  bottom: 49.8%;
+  top: 38.15%;
+  overflow: hidden;
+}
+.smile-school {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Coiny-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 32.54%;
+  width: 67.46%;
+  top: calc(50% - 9px);
+}
+.smile {
+  width: 21.53%;
+  height: 98.2%;
+  position: absolute;
+  right: 78.12%;
+  left: 0.35%;
+  bottom: 1.72%;
+  top: 0.08%;
+  overflow: visible;
+}
+.smileschool-2020 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.35;
+  position: absolute;
+  right: 46.67%;
+  left: 46.67%;
+  width: 6.67%;
+  top: calc(50% - -70.5px);
+}
+.social-icons {
+  height: auto;
+  position: absolute;
+  left: 1070px;
+  top: 90px;
+  overflow: visible;
+}
+.part-4-faq {
+  width: 920px;
+  height: 707px;
+  position: absolute;
+  left: 249px;
+  top: 2678px;
+  overflow: hidden;
+}
+.f-a-q {
+  color: #071629;
+  text-align: center;
+  font-family: "SourceSansPro-Light", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  position: absolute;
+  right: 40.98%;
+  left: 44.24%;
+  width: 14.78%;
+  top: calc(50% - 353.5px);
+}
+.q-1 {
+  width: 38.04%;
+  height: 34.23%;
+  position: absolute;
+  right: 61.96%;
+  left: 0%;
+  bottom: 44.7%;
+  top: 21.07%;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si {
+  color: rgba(7, 22, 41, 0.5);
+  text-align: left;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: calc(50% - 71px);
+}
+.how-does-this-work {
+  color: #071629;
+  text-align: left;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 58.57%;
+  left: 0%;
+  width: 41.43%;
+  top: calc(50% - 121px);
+}
+.q-3 {
+  width: 38.04%;
+  height: 34.23%;
+  position: absolute;
+  right: 61.96%;
+  left: 0%;
+  bottom: 0%;
+  top: 65.77%;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si-copy {
+  color: rgba(7, 22, 41, 0.5);
+  text-align: left;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: calc(50% - 71px);
+}
+.q-2 {
+  width: 38.04%;
+  height: 34.23%;
+  position: absolute;
+  right: 0%;
+  left: 61.96%;
+  bottom: 44.7%;
+  top: 21.07%;
+  overflow: hidden;
+}
+.q-4 {
+  width: 38.04%;
+  height: 34.23%;
+  position: absolute;
+  right: 0%;
+  left: 61.96%;
+  bottom: 0%;
+  top: 65.77%;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si-copy-2 {
+  color: rgba(7, 22, 41, 0.5);
+  text-align: left;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: calc(50% - 71px);
+}
+.part-3-free-membership {
+  width: 1440px;
+  height: 502px;
+  position: absolute;
+  left: 0px;
+  top: 2109px;
+  overflow: hidden;
+}
+.background2 {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -21,7 +207,645 @@
   top: 0%;
   overflow: visible;
 }
+.free-membership {
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  right: 40.9%;
+  left: 42.85%;
+  width: 16.25%;
+  top: calc(50% - 181px);
+}
+.free-membership-span {
+  color: #c271ff;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-weight: 700;
+}
+.free-membership-span2 {
+  color: #ffffff;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-weight: 700;
+}
+.free-membership-span3 {
+  color: #ffffff;
+  font-family: "SourceSansPro-Light", sans-serif;
+  font-weight: 300;
+}
+.button {
+  width: 11.25%;
+  height: 8.76%;
+  position: absolute;
+  right: 44.38%;
+  left: 44.38%;
+  bottom: 10.36%;
+  top: 80.88%;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.button-background {
+  background: #c271ff;
+  border-radius: 22px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.register-for-free {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SourceSansPro-Semibold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  right: 12.04%;
+  left: 13.27%;
+  width: 74.69%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.dot-1 {
+  width: 17.85%;
+  height: 30.48%;
+  position: absolute;
+  right: 70.76%;
+  left: 11.39%;
+  bottom: 36.06%;
+  top: 33.47%;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.75%;
+  left: 8.75%;
+  width: 82.49%;
+  top: calc(50% - -24.5px);
+}
+.lorem-ipsum {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SourceSansPro-Semibold", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  position: absolute;
+  right: 0.19%;
+  left: 0.19%;
+  width: 99.61%;
+  top: calc(50% - 14.5px);
+}
+.smile2 {
+  width: 16.99%;
+  height: 23.11%;
+  position: absolute;
+  right: 41.49%;
+  left: 41.52%;
+  bottom: 76.88%;
+  top: 0.02%;
+  overflow: visible;
+}
+.dot-2 {
+  width: 17.85%;
+  height: 30.48%;
+  position: absolute;
+  right: 51.04%;
+  left: 31.11%;
+  bottom: 36.06%;
+  top: 33.47%;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  position: absolute;
+  right: 7%;
+  left: 7%;
+  width: 85.99%;
+  top: calc(50% - -24.5px);
+}
+.smile3 {
+  width: 16.99%;
+  height: 23.11%;
+  position: absolute;
+  right: 41.49%;
+  left: 41.52%;
+  bottom: 76.88%;
+  top: 0.02%;
+  overflow: visible;
+}
+.dot-3 {
+  width: 17.85%;
+  height: 30.48%;
+  position: absolute;
+  right: 31.25%;
+  left: 50.9%;
+  bottom: 36.06%;
+  top: 33.47%;
+  overflow: hidden;
+}
+.lorem-ipsum-dolor-si4 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.17%;
+  left: 8.17%;
+  width: 83.66%;
+  top: calc(50% - -24.5px);
+}
+.smile4 {
+  width: 16.99%;
+  height: 23.11%;
+  position: absolute;
+  right: 41.49%;
+  left: 41.52%;
+  bottom: 76.88%;
+  top: 0.02%;
+  overflow: visible;
+}
+.dot-4 {
+  width: 17.85%;
+  height: 30.48%;
+  position: absolute;
+  right: 11.39%;
+  left: 70.76%;
+  bottom: 36.06%;
+  top: 33.47%;
+  overflow: hidden;
+}
+.smile5 {
+  width: 16.99%;
+  height: 23.11%;
+  position: absolute;
+  right: 41.49%;
+  left: 41.52%;
+  bottom: 76.88%;
+  top: 0.02%;
+  overflow: visible;
+}
+.part-2-tutorials {
+  width: 1228px;
+  height: 450px;
+  position: absolute;
+  left: 106px;
+  top: 1572px;
+  overflow: hidden;
+}
+.most-popular-tutoria {
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  right: 36.81%;
+  left: 39.25%;
+  width: 23.94%;
+  top: calc(50% - 225px);
+}
+.most-popular-tutoria-span {
+  color: #071629;
+  font-family: "SourceSansPro-Light", sans-serif;
+  font-weight: 300;
+}
+.most-popular-tutoria-span2 {
+  color: #c271ff;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-weight: 700;
+}
+.most-popular-tutoria-span3 {
+  color: #ffffff;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-weight: 700;
+}
+.tuto-1 {
+  width: 20.77%;
+  height: 74.44%;
+  position: absolute;
+  right: 74.51%;
+  left: 4.72%;
+  bottom: 0%;
+  top: 25.56%;
+  overflow: hidden;
+}
+.background3 {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+.avatar {
+  width: 11.76%;
+  height: 8.96%;
+  position: absolute;
+  right: 83.14%;
+  left: 5.1%;
+  bottom: 13.13%;
+  top: 77.91%;
+  overflow: visible;
+}
+.phillip-massey {
+  color: #c271ff;
+  text-align: left;
+  font-family: "SourceSansPro-Semibold", sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 600;
+  position: absolute;
+  right: 44.31%;
+  left: 21.96%;
+  width: 33.73%;
+  top: calc(50% - -95.5px);
+}
+._8-min {
+  color: #c271ff;
+  text-align: right;
+  font-family: "SourceSansPro-Semibold", sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 600;
+  position: absolute;
+  right: 8.63%;
+  left: 78.04%;
+  width: 13.33%;
+  top: calc(50% - -129.5px);
+}
+.rating {
+  width: 41.96%;
+  height: 4.48%;
+  position: absolute;
+  right: 52.94%;
+  left: 5.1%;
+  bottom: 4.48%;
+  top: 91.04%;
+  overflow: visible;
+}
+.lorem-ipsum-dolor-si5 {
+  color: rgba(7, 22, 41, 0.5);
+  text-align: left;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 5.1%;
+  width: 94.9%;
+  top: calc(50% - -32.1px);
+}
+.diagonal-smile {
+  color: #071629;
+  text-align: left;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 53.33%;
+  left: 5.1%;
+  width: 41.57%;
+  top: calc(50% - -4.5px);
+}
+.preview {
+  position: absolute;
+  inset: 0;
+}
+.mask {
+  background: #d8d8d8;
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  height: 45.97%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 54.03%;
+  top: 0%;
+}
+.bitmap {
+  width: 321.96%;
+  height: 367.76%;
+  position: absolute;
+  right: -83.53%;
+  left: -138.43%;
+  bottom: -181.49%;
+  top: -86.27%;
+  object-fit: cover;
+}
+.play {
+  width: 25.1%;
+  height: 19.1%;
+  position: absolute;
+  right: 37.25%;
+  left: 37.65%;
+  bottom: 67.46%;
+  top: 13.43%;
+  overflow: visible;
+}
+.tuto-2 {
+  width: 20.77%;
+  height: 74.44%;
+  position: absolute;
+  right: 51.22%;
+  left: 28.01%;
+  bottom: 0%;
+  top: 25.56%;
+  overflow: hidden;
+}
+.avatar2 {
+  width: 11.76%;
+  height: 8.96%;
+  position: absolute;
+  right: 83.14%;
+  left: 5.1%;
+  bottom: 13.13%;
+  top: 77.91%;
+  overflow: visible;
+}
+.rating2 {
+  width: 41.96%;
+  height: 4.48%;
+  position: absolute;
+  right: 52.94%;
+  left: 5.1%;
+  bottom: 4.48%;
+  top: 91.04%;
+  overflow: visible;
+}
+.sad-smile {
+  color: #071629;
+  text-align: left;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 67.45%;
+  left: 5.1%;
+  width: 27.45%;
+  top: calc(50% - -4.5px);
+}
+.bitmap2 {
+  width: 157.65%;
+  height: 180%;
+  position: absolute;
+  right: 0%;
+  left: -57.65%;
+  bottom: -10.75%;
+  top: -69.25%;
+  object-fit: cover;
+}
+.play2 {
+  width: 25.1%;
+  height: 19.1%;
+  position: absolute;
+  right: 37.25%;
+  left: 37.65%;
+  bottom: 67.46%;
+  top: 13.43%;
+  overflow: visible;
+}
+.tuto-3 {
+  width: 20.77%;
+  height: 74.44%;
+  position: absolute;
+  right: 28.01%;
+  left: 51.22%;
+  bottom: 0%;
+  top: 25.56%;
+  overflow: hidden;
+}
+.avatar3 {
+  width: 11.76%;
+  height: 8.96%;
+  position: absolute;
+  right: 83.14%;
+  left: 5.1%;
+  bottom: 13.13%;
+  top: 77.91%;
+  overflow: visible;
+}
+.rating3 {
+  width: 41.96%;
+  height: 4.48%;
+  position: absolute;
+  right: 52.94%;
+  left: 5.1%;
+  bottom: 4.48%;
+  top: 91.04%;
+  overflow: visible;
+}
+.natural-smile {
+  color: #071629;
+  text-align: left;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 56.86%;
+  left: 5.1%;
+  width: 38.04%;
+  top: calc(50% - -4.5px);
+}
+.bitmap3 {
+  width: 102.35%;
+  height: 116.72%;
+  position: absolute;
+  right: -0.92%;
+  left: -1.44%;
+  bottom: 18.81%;
+  top: -35.52%;
+  object-fit: cover;
+}
+.play3 {
+  width: 25.1%;
+  height: 19.1%;
+  position: absolute;
+  right: 37.25%;
+  left: 37.65%;
+  bottom: 67.46%;
+  top: 13.43%;
+  overflow: visible;
+}
+.tuto-4 {
+  width: 20.77%;
+  height: 74.44%;
+  position: absolute;
+  right: 4.8%;
+  left: 74.43%;
+  bottom: 0%;
+  top: 25.56%;
+  overflow: hidden;
+}
+.avatar4 {
+  width: 11.76%;
+  height: 8.96%;
+  position: absolute;
+  right: 83.14%;
+  left: 5.1%;
+  bottom: 13.13%;
+  top: 77.91%;
+  overflow: visible;
+}
+.rating4 {
+  width: 41.96%;
+  height: 4.48%;
+  position: absolute;
+  right: 52.94%;
+  left: 5.1%;
+  bottom: 4.48%;
+  top: 91.04%;
+  overflow: visible;
+}
+.happy-smile {
+  color: #071629;
+  text-align: left;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 60%;
+  left: 5.1%;
+  width: 34.9%;
+  top: calc(50% - -4.5px);
+}
+.bitmap4 {
+  width: 214.12%;
+  height: 108.66%;
+  position: absolute;
+  right: -70.78%;
+  left: -43.33%;
+  bottom: 22.69%;
+  top: -31.34%;
+  object-fit: cover;
+}
+.play4 {
+  width: 25.1%;
+  height: 19.1%;
+  position: absolute;
+  right: 37.25%;
+  left: 37.65%;
+  bottom: 67.46%;
+  top: 13.43%;
+  overflow: visible;
+}
+.part-1-testimonials {
+  position: absolute;
+  inset: 0;
+}
+.background4 {
+  width: 1440px;
+  height: 392px;
+  position: absolute;
+  left: -1px;
+  top: 1093px;
+  overflow: visible;
+}
+.testimonial {
+  width: 943px;
+  height: 160px;
+  position: static;
+}
+.avatar5 {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 259px;
+  top: 1201px;
+  overflow: visible;
+}
+.text {
+  width: 730px;
+  height: 158px;
+  position: absolute;
+  left: 472px;
+  top: 1203px;
+  overflow: hidden;
+}
+.weather-presenter {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SourceSansPro-Italic", sans-serif;
+  font-size: 22px;
+  line-height: 33.6px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  right: 77.4%;
+  left: 0%;
+  width: 22.6%;
+  top: calc(50% - -45px);
+}
+.person-name {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 33.6px;
+  font-weight: 700;
+  position: absolute;
+  right: 82.33%;
+  left: 0%;
+  width: 17.67%;
+  top: calc(50% - -11px);
+}
+.those-tutorials-ar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 22px;
+  line-height: 33.6px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 56.96%;
+  top: 0%;
+  height: 43.04%;
+}
+.main-part {
+  width: 1440px;
+  height: 1093px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.background5 {
+  position: absolute;
+  inset: 0;
+}
 .mask2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.mask3 {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -36,7 +860,7 @@
   height: 1055px;
   position: static;
 }
-.bitmap {
+.bitmap5 {
   width: 100.57%;
   height: 96.52%;
   position: absolute;
@@ -46,7 +870,7 @@
   top: -6.04%;
   object-fit: cover;
 }
-.bitmap2 {
+.bitmap6 {
   background: radial-gradient(
       closest-side,
       rgba(41, 48, 61, 0) 0%,
@@ -109,7 +933,7 @@
   width: 3.4%;
   top: calc(50% - 185.5px);
 }
-.button {
+.button2 {
   width: 11.25%;
   height: 4.03%;
   position: absolute;
@@ -120,18 +944,7 @@
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
-.button-background {
-  background: #c271ff;
-  border-radius: 22px;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  bottom: 0%;
-  top: 0%;
-}
-.register-for-free {
+.register-for-free2 {
   color: #ffffff;
   text-align: center;
   font-family: "SourceSansPro-Semibold", sans-serif;
@@ -211,7 +1024,7 @@
   width: 100%;
   top: calc(50% - -70.5px);
 }
-.avatar {
+.avatar6 {
   width: 100%;
   height: 63.29%;
   position: absolute;
@@ -258,7 +1071,7 @@
   width: 100%;
   top: calc(50% - -70.5px);
 }
-.avatar2 {
+.avatar7 {
   width: 100%;
   height: 63.29%;
   position: absolute;
@@ -305,7 +1118,7 @@
   width: 100%;
   top: calc(50% - -70.5px);
 }
-.avatar3 {
+.avatar8 {
   width: 100%;
   height: 63.29%;
   position: absolute;
@@ -325,7 +1138,7 @@
   top: 69.35%;
   overflow: hidden;
 }
-.phillip-massey {
+.phillip-massey2 {
   color: #ffffff;
   text-align: center;
   font-family: "SourceSansPro-Black", sans-serif;
@@ -352,7 +1165,7 @@
   width: 100%;
   top: calc(50% - -70.5px);
 }
-.avatar4 {
+.avatar9 {
   width: 100%;
   height: 63.29%;
   position: absolute;
@@ -362,82 +1175,62 @@
   top: 0%;
   overflow: visible;
 }
-.part-1-testimonials,
-.part-1-testimonials * {
-  box-sizing: border-box;
-}
-.part-1-testimonials {
-  position: relative;
-}
-.background {
-  width: 1440px;
-  height: 392px;
+.header {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  inset: 0;
+}
+.logo2 {
+  width: 167.02px;
+  height: 29.46px;
+  position: absolute;
+  left: 171.59px;
+  top: 35.02px;
   overflow: visible;
 }
-.testimonial {
-  width: 943px;
-  height: 160px;
-  position: static;
-}
-.avatar {
-  width: 160px;
-  height: 160px;
+.menu {
+  width: 234px;
+  height: 15px;
   position: absolute;
-  left: 260px;
-  top: 108px;
-  overflow: visible;
-}
-.text {
-  width: 730px;
-  height: 158px;
-  position: absolute;
-  left: 473px;
-  top: 110px;
+  left: 1041px;
+  top: 37px;
   overflow: hidden;
 }
-.weather-presenter {
-  color: #ffffff;
-  text-align: left;
-  font-family: "SourceSansPro-Italic", sans-serif;
-  font-size: 22px;
-  line-height: 33.6px;
-  font-weight: 400;
-  font-style: italic;
-  position: absolute;
-  right: 77.4%;
-  left: 0%;
-  width: 22.6%;
-  top: calc(50% - -45px);
-}
-.person-name {
+.courses {
   color: #ffffff;
   text-align: left;
   font-family: "SourceSansPro-Bold", sans-serif;
-  font-size: 22px;
-  line-height: 33.6px;
+  font-size: 12px;
   font-weight: 700;
   position: absolute;
-  right: 82.33%;
+  right: 78.63%;
   left: 0%;
-  width: 17.67%;
-  top: calc(50% - -11px);
+  width: 21.37%;
+  top: 50%;
+  translate: 0 -50%;
 }
-.those-tutorials-ar {
+.pricing {
   color: #ffffff;
   text-align: left;
-  font-family: "SourceSansPro-Regular", sans-serif;
-  font-size: 22px;
-  line-height: 33.6px;
-  font-weight: 400;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 37.18%;
+  left: 43.59%;
+  width: 19.23%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.login {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
   position: absolute;
   right: 0%;
-  left: 0%;
-  width: 100%;
-  bottom: 56.96%;
-  top: 0%;
-  height: 43.04%;
+  left: 85.47%;
+  width: 14.53%;
+  top: 50%;
+  translate: 0 -50%;
 }
-
